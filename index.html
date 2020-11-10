@@ -1,15 +1,12 @@
 <html> 
-  <head> 
-    <script src="jquery.js"></script> 
-    <script> 
-    $(function(){
-      $("#includedContent").load("b.html"); 
-    });
-    </script> 
-  </head> 
+  <body>
+  <h1>Put your HTML content before insertion of b.js.</h1>
+      ...
 
-  <body> 
-     <div id="includedContent"></div>
-    <p> LOOK AT ME </p>
-  </body> 
+  <script src="b.js"></script>
+
+      ...
+
+  <p>And whatever content you want afterwards.</p>
+  </body>
 </html>
